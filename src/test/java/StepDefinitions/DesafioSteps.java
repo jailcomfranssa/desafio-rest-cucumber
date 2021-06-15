@@ -15,7 +15,7 @@ public class DesafioSteps {
         System.out.println("endpoint ola");
     }
 
-    @Quando("execultado recebe o valor ok")
+    @Quando("executado recebe o valor ok")
     public void execultado_recebe_o_valor() {
        given()
        .when()
@@ -40,7 +40,7 @@ public class DesafioSteps {
         System.out.println("endpoint users1");
     }
 
-    @Quando("execultado recebe sucesso")
+    @Quando("executado recebe usuario1")
     public void execultado_recebe_sucesso() {
         given()
         .when()
@@ -67,7 +67,7 @@ public class DesafioSteps {
         System.out.println("endpoint users2");
     }
 
-    @Quando("execultado com sucesso recebe usuario2")
+    @Quando("executado com sucesso recebe usuario2")
     public void execultado_com_sucesso_recebe_usuario2() {
         given()
         .when()
@@ -94,7 +94,7 @@ public class DesafioSteps {
         System.out.println("endpoint users3");
     }
 
-    @Quando("execultado com sucesso recebe usuario3")
+    @Quando("executado com sucesso recebe usuario3")
     public void execultado_com_sucesso_recebe_usuario3() {
         given()
         .when()
@@ -123,7 +123,7 @@ public class DesafioSteps {
         System.out.println("endpoint users4");
     }
 
-    @Quando("execultado recebe o valor Not Found")
+    @Quando("executado recebe o valor Not Found")
     public void execultado_recebe_o_valor_Not_Found() {
         given()
         .when()
@@ -146,7 +146,7 @@ public class DesafioSteps {
         System.out.println("endpoint users");
     }
 
-    @Quando("execultado recebe o valor de todos usuarios")
+    @Quando("executado recebe o valor de todos usuarios")
     public void execultado_recebe_o_valor_de_todos_usuarios() {
         given()
         .when()
